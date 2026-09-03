@@ -114,7 +114,7 @@ const SCHEDULE = [
       {
         id: 'd4-4', start: '22:00', end: null, loc: 'viola', body: 'log', kind: 'meal',
         t: { pt: 'Jantar por adesão' },
-        note: { pt: 'R$ 50 por adulto.' },
+        note: { pt: 'R$ 50 por adulto · crianças de 10 a 15 anos R$ 30 · até 9 anos não pagam.' },
       },
     ],
   },
@@ -131,17 +131,17 @@ const SCHEDULE = [
       {
         id: 'd5-2', start: '07:30', end: '12:30', loc: 'templo', body: 'capitulo',
         t: { pt: 'Sessão Magna de Transmissão · Graus 4 ao 18' },
-        restriction: { pt: 'Início pontual às 7h30 — quem chegar atrasado ficará de fora. Participação obrigatória dos 102 irmãos, inclusive os já reconhecidos nos Graus 19 a 33.' },
+        restriction: { pt: 'Início pontual às 7h30 — quem chegar atrasado ficará de fora. Participação obrigatória dos 103 irmãos, inclusive os já reconhecidos nos Graus 19 a 33.' },
       },
       {
         id: 'd5-3', start: '12:30', end: '13:30', loc: 'templo', body: 'log', kind: 'meal',
         t: { pt: 'Almoço · Graus 19 ao 33' },
-        note: { pt: 'R$ 50. Servido no próprio Templo, pelo intervalo de apenas uma hora.' },
+        note: { pt: 'Apenas para os irmãos que participarão da sessão dos Graus 19 ao 33. R$ 50, pagos na hora — cada um paga o seu. Servido no próprio Templo, pelo intervalo de apenas uma hora.' },
       },
       {
         id: 'd5-4', start: '12:30', end: null, loc: 'viola', body: 'capitulo', kind: 'meal',
         t: { pt: 'Graus 4 ao 18 · liberação e tarde livre' },
-        note: { pt: 'Almoço livre com cunhadas e sobrinhos. O Recanto da Viola oferece almoço para quem desejar (R$ 50).' },
+        note: { pt: 'Almoço livre com cunhadas e sobrinhos. No Recanto da Viola: R$ 74,90 adulto · crianças de 10 a 15 anos R$ 40 · até 9 anos não pagam. Quem paga o almoço ganha um dia de entrada no Parque Aquático.' },
       },
       {
         id: 'd5-5', start: '13:30', end: '19:30', loc: 'templo', body: 'altos',
@@ -149,9 +149,14 @@ const SCHEDULE = [
         note: { pt: 'Liberação conforme o grau recebido: até o Grau 30, ao fim da sua transmissão; Grau 33, por volta das 19h30. Irmãos já reconhecidos no Grau 33 permanecem até o fim.' },
       },
       {
+        id: 'd5-5b', start: '16:00', end: null, loc: 'templo', body: 'altos',
+        t: { pt: 'Sessão de Investidura do Sumo Grau 33' },
+        note: { pt: 'Dentro da sessão da tarde.' },
+      },
+      {
         id: 'd5-6', start: '18:00', end: '19:30', loc: 'bluetree', body: 'cunhadas', kind: 'coffee',
-        t: { pt: 'Chá das Cunhadas · palestra “Saúde da Mulher”' },
-        note: { pt: 'Com médica e professora da UFMT. Espaço Kids com cuidadoras durante a palestra. Ao final, deslocamento ao Recanto Acqua Park.' },
+        t: { pt: 'Chá das Cunhadas · palestra “Segredos da Saúde da Mulher”' },
+        note: { pt: 'Palestrante: Cunhada Dra. Sofia Adelia Bernardo da Silva Houklef, médica e professora da UFMT. Espaço Kids com cuidadoras durante a palestra. Ao final, deslocamento ao Recanto Acqua Park.' },
       },
       {
         id: 'd5-7', start: '19:45', end: null, loc: 'acqua', body: 'cunhadas', kind: 'social',
@@ -162,12 +167,12 @@ const SCHEDULE = [
         id: 'd5-8', start: '20:00', end: '22:00', loc: 'templo', body: 'cerimonia',
         t: { pt: 'Cerimônia de Fundação dos Altos Corpos da Região Centro-Norte' },
         restriction: { pt: 'Somente irmãos.' },
-        note: { pt: 'Posse dos Presidentes dos Altos Corpos · reimplantação da 2ª Delegacia Litúrgica de Mato Grosso, em Sinop · homenagens a dignidades e autoridades. Traje maçônico, paramentado, com a comenda do último grau recebido.' },
+        note: { pt: 'Posse dos Presidentes dos Altos Corpos · reimplantação da 2ª Delegacia Litúrgica de Mato Grosso, em Sinop · homenagens a dignidades e autoridades. Traje maçônico e paramentos, com a comenda do último grau recebido.' },
       },
       {
         id: 'd5-9', start: '22:00', end: null, loc: 'acqua', body: 'log', kind: 'meal',
         t: { pt: 'Jantar de encerramento por adesão' },
-        note: { pt: 'R$ 150 com open bar · R$ 120 sem open bar · infantil (10 a 15 anos) R$ 100. Traje social.' },
+        note: { pt: 'Adulto: R$ 150 com chope à vontade ou R$ 120 com água, refrigerante e suco · crianças de 10 a 15 anos R$ 100 (água, refrigerante e suco) · até 9 anos não pagam. Traje social.' },
       },
     ],
   },
