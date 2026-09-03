@@ -7,46 +7,47 @@ X-WR-CALNAME:Programa Oficial — Rito Brasileiro · Sorriso 2026
 X-WR-TIMEZONE:America/Cuiaba
 BEGIN:VEVENT
 UID:d4-1@ritobr
-DTSTAMP:20260903T205000Z
+DTSTAMP:20260903T211400Z
 DTSTART:20260904T230000Z
 DTEND:20260905T000000Z
 SUMMARY:Chegada e recepção
 LOCATION:Recanto da Viola\, Estrada D\, Lote 51 – Gleba Sorriso\, Sorriso
   – MT\, 78898-899
-DESCRIPTION:Irmãos\, cunhadas e sobrinhos podem chegar a partir das 19h. 
- Cada irmão recebe uma comanda individual\; cada participante paga o próp
- rio consumo. Traje: informal.\nhttps://viaveritasvita.github.io/ritobr/
+DESCRIPTION:Recepção dos irmãos\, cunhadas e sobrinhos\, das comitivas do
+  Supremo Conclave e da Delegacia Litúrgica de Cuiabá. Comanda individual
+  por irmão\; cada participante paga o próprio consumo. Traje informal.\n
+ https://viaveritasvita.github.io/ritobr/
 URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d4-2@ritobr
-DTSTAMP:20260903T205000Z
+DTSTAMP:20260903T211400Z
 DTSTART:20260905T000000Z
 DTEND:20260905T020000Z
 SUMMARY:Reunião Administrativa dos Fundadores
 LOCATION:Recanto Acqua Park\, Estrada D\, Lote 51\, 5884 – Gleba Sorriso\
  , Sorriso – MT\, 78890-000
-DESCRIPTION:Oriente de Sorriso. Pauta: eleição da Diretoria\, assinatura 
- da ata de fundação\, deliberações administrativas e demais assuntos.\nht
- tps://viaveritasvita.github.io/ritobr/
+DESCRIPTION:Atenção: Somente irmãos.\nPauta: eleição da Diretoria\, assin
+ atura da ata de fundação\, deliberações administrativas e demais assunto
+ s.\nhttps://viaveritasvita.github.io/ritobr/
 URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d4-3@ritobr
-DTSTAMP:20260903T205000Z
+DTSTAMP:20260903T211400Z
 DTSTART:20260905T000000Z
 DTEND:20260905T020000Z
-SUMMARY:Recepção das cunhadas e sobrinhos
+SUMMARY:Confraternização das cunhadas e sobrinhos
 LOCATION:Recanto da Viola\, Estrada D\, Lote 51 – Gleba Sorriso\, Sorriso
   – MT\, 78898-899
-DESCRIPTION:Enquanto os irmãos estiverem em reunião: petiscos\, bebidas e
-  confraternização\, brinquedos infláveis e cuidadoras para as crianças.\
- nhttps://viaveritasvita.github.io/ritobr/
+DESCRIPTION:Durante a reunião dos irmãos: petiscos\, bebidas\, brinquedos
+  infláveis e cuidadoras para as crianças.\nhttps://viaveritasvita.github
+ .io/ritobr/
 URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d4-4@ritobr
-DTSTAMP:20260903T205000Z
+DTSTAMP:20260903T211400Z
 DTSTART:20260905T020000Z
 DTEND:20260905T030000Z
 SUMMARY:Jantar por adesão
@@ -57,7 +58,7 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-1@ritobr
-DTSTAMP:20260903T205000Z
+DTSTAMP:20260903T211400Z
 DTSTART:20260905T103000Z
 DTEND:20260905T113000Z
 SUMMARY:Credenciamento e chegada ao Templo
@@ -70,24 +71,23 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-2@ritobr
-DTSTAMP:20260903T205000Z
+DTSTAMP:20260903T211400Z
 DTSTART:20260905T113000Z
 DTEND:20260905T163000Z
 SUMMARY:Sessão Magna de Transmissão · Graus 4 ao 18
 LOCATION:Templo da ARLS Acácia de Sorriso nº 2442\, Rua José Rocha dos Sa
  ntos Filho\, 191 – Centro\, Sorriso – MT\, 78890-000
-DESCRIPTION:Atenção: Início pontual às 7h30 — irmão que chegar atrasado f
- icará de fora. Participação obrigatória dos 102 irmãos\, inclusive os já
-  reconhecidos nos Graus 19 a 33.\nhttps://viaveritasvita.github.io/ritob
- r/
+DESCRIPTION:Atenção: Início pontual às 7h30 — quem chegar atrasado ficará
+  de fora. Participação obrigatória dos 102 irmãos\, inclusive os já reco
+ nhecidos nos Graus 19 a 33.\nhttps://viaveritasvita.github.io/ritobr/
 URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-3@ritobr
-DTSTAMP:20260903T205000Z
+DTSTAMP:20260903T211400Z
 DTSTART:20260905T163000Z
 DTEND:20260905T173000Z
-SUMMARY:Almoço dos irmãos dos Graus 19 ao 33
+SUMMARY:Almoço · Graus 19 ao 33
 LOCATION:Templo da ARLS Acácia de Sorriso nº 2442\, Rua José Rocha dos Sa
  ntos Filho\, 191 – Centro\, Sorriso – MT\, 78890-000
 DESCRIPTION:R$ 50. Servido no próprio Templo\, pelo intervalo de apenas u
@@ -96,82 +96,81 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-4@ritobr
-DTSTAMP:20260903T205000Z
+DTSTAMP:20260903T211400Z
 DTSTART:20260905T163000Z
 DTEND:20260905T173000Z
-SUMMARY:Liberação dos irmãos dos Graus 4 ao 18 · tarde livre
+SUMMARY:Graus 4 ao 18 · liberação e tarde livre
 LOCATION:Recanto da Viola\, Estrada D\, Lote 51 – Gleba Sorriso\, Sorriso
   – MT\, 78898-899
-DESCRIPTION:Almoço com cunhadas e sobrinhos onde preferirem. O Recanto da
-  Viola disponibiliza almoço para quem desejar (R$ 50).\nhttps://viaverit
- asvita.github.io/ritobr/
+DESCRIPTION:Almoço livre com cunhadas e sobrinhos. O Recanto da Viola ofe
+ rece almoço para quem desejar (R$ 50).\nhttps://viaveritasvita.github.io
+ /ritobr/
 URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-5@ritobr
-DTSTAMP:20260903T205000Z
+DTSTAMP:20260903T211400Z
 DTSTART:20260905T173000Z
 DTEND:20260905T233000Z
 SUMMARY:Sessão Magna de Transmissão · Graus 19 ao 33
 LOCATION:Templo da ARLS Acácia de Sorriso nº 2442\, Rua José Rocha dos Sa
  ntos Filho\, 191 – Centro\, Sorriso – MT\, 78890-000
-DESCRIPTION:Liberação conforme o grau atingido: quem recebe até o Grau 30
-  é liberado após a sua transmissão\; quem recebe o Grau 33 permanece até
-  cerca de 19h30. Irmãos já reconhecidos no Grau 33 permanecem durante to
- da a sessão.\nhttps://viaveritasvita.github.io/ritobr/
+DESCRIPTION:Liberação conforme o grau recebido: até o Grau 30\, ao fim da
+  sua transmissão\; Grau 33\, por volta das 19h30. Irmãos já reconhecidos
+  no Grau 33 permanecem até o fim.\nhttps://viaveritasvita.github.io/rito
+ br/
 URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-6@ritobr
-DTSTAMP:20260903T205000Z
+DTSTAMP:20260903T211400Z
 DTSTART:20260905T220000Z
 DTEND:20260905T233000Z
 SUMMARY:Chá das Cunhadas · palestra “Saúde da Mulher”
 LOCATION:Hotel Blue Tree Towers Sorriso\, Avenida Blumenau Sul\, 2235 – B
  ela Vista\, Sorriso – MT\, 78890-001
-DESCRIPTION:Palestra com médica e professora da UFMT. Espaço Kids com cui
- dadoras durante a palestra. Ao final\, seguir para o Recanto Acqua Park.
- \nhttps://viaveritasvita.github.io/ritobr/
+DESCRIPTION:Com médica e professora da UFMT. Espaço Kids com cuidadoras d
+ urante a palestra. Ao final\, deslocamento ao Recanto Acqua Park.\nhttps
+ ://viaveritasvita.github.io/ritobr/
 URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-7@ritobr
-DTSTAMP:20260903T205000Z
+DTSTAMP:20260903T211400Z
 DTSTART:20260905T234500Z
 DTEND:20260906T004500Z
 SUMMARY:Recepção das cunhadas e sobrinhos
 LOCATION:Recanto Acqua Park\, Estrada D\, Lote 51\, 5884 – Gleba Sorriso\
  , Sorriso – MT\, 78890-000
-DESCRIPTION:Espaço Kids\, brinquedos infláveis e cuidadoras.\nhttps://via
- veritasvita.github.io/ritobr/
+DESCRIPTION:Espaço Kids\, brinquedos infláveis e cuidadoras. Traje social
+ .\nhttps://viaveritasvita.github.io/ritobr/
 URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-8@ritobr
-DTSTAMP:20260903T205000Z
+DTSTAMP:20260903T211400Z
 DTSTART:20260906T000000Z
 DTEND:20260906T020000Z
-SUMMARY:Cerimônia Pública de Fundação dos Altos Corpos da Região Centro-N
- orte
-LOCATION:Recanto Acqua Park\, Estrada D\, Lote 51\, 5884 – Gleba Sorriso\
- , Sorriso – MT\, 78890-000
-DESCRIPTION:Posse dos Presidentes dos Altos Corpos · reimplantação da 2ª 
- Delegacia Litúrgica de Mato Grosso (Sinop) · homenagens a dignidades e a
- utoridades. Trajes — irmãos: maçônico\, paramentados\, com a comenda do 
- último grau recebido\; cunhadas: social.\nhttps://viaveritasvita.github.
- io/ritobr/
+SUMMARY:Cerimônia de Fundação dos Altos Corpos da Região Centro-Norte
+LOCATION:Templo da ARLS Acácia de Sorriso nº 2442\, Rua José Rocha dos Sa
+ ntos Filho\, 191 – Centro\, Sorriso – MT\, 78890-000
+DESCRIPTION:Atenção: Somente irmãos.\nPosse dos Presidentes dos Altos Cor
+ pos · reimplantação da 2ª Delegacia Litúrgica de Mato Grosso\, em Sinop 
+ · homenagens a dignidades e autoridades. Traje maçônico\, paramentado\, 
+ com a comenda do último grau recebido.\nhttps://viaveritasvita.github.io
+ /ritobr/
 URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-9@ritobr
-DTSTAMP:20260903T205000Z
+DTSTAMP:20260903T211400Z
 DTSTART:20260906T020000Z
 DTEND:20260906T030000Z
 SUMMARY:Jantar de encerramento por adesão
 LOCATION:Recanto Acqua Park\, Estrada D\, Lote 51\, 5884 – Gleba Sorriso\
  , Sorriso – MT\, 78890-000
 DESCRIPTION:R$ 150 com open bar · R$ 120 sem open bar · infantil (10 a 15
-  anos) R$ 100.\nhttps://viaveritasvita.github.io/ritobr/
+  anos) R$ 100. Traje social.\nhttps://viaveritasvita.github.io/ritobr/
 URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 END:VCALENDAR

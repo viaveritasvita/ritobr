@@ -285,7 +285,7 @@
     const dayNum = Number(day.date.slice(8));
     return lang === 'en'
       ? `${wd} · ${t('dayOfMonthLabel')} ${dayNum}`
-      : `${wd} · ${dayNum} ${lang === 'fr' ? '' : 'de '}${lang === 'fr' ? 'août' : 'agosto'}`;
+      : `${wd} · ${dayNum} ${t('dayOfMonthLabel')}`;
   }
 
   function renderSchedule() {
