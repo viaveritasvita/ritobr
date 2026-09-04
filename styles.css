@@ -246,6 +246,16 @@ svg { display: block; }
 .date-plaque::before { left: -4.5px; }
 .date-plaque::after { right: -4.5px; }
 
+/* linha de lugar sob a plaqueta — versalete dourado discreto */
+.masthead-place {
+  margin: 0.55rem 0 0;
+  font-family: var(--font-display); font-weight: 600;
+  font-size: clamp(0.58rem, 2.3vw, 0.7rem);
+  letter-spacing: 0.24em; text-indent: 0.24em; text-transform: uppercase;
+  color: var(--gold-aged); opacity: 0.9;
+}
+.medallion { filter: drop-shadow(0 6px 14px rgba(58, 21, 32, 0.22)); }
+
 /* telas muito estreitas: empilha o cabeçalho (padrão é lado a lado) */
 @media (max-width: 349px) {
   .masthead-row { flex-direction: column; gap: 0.5rem; }
@@ -737,10 +747,33 @@ main::before {
 .restriction svg { width: 0.85rem; height: 0.85rem; fill: var(--amber); flex: none; margin-top: 0.2rem; }
 .restriction p { margin: 0; font-size: 0.94rem; line-height: 1.5; color: #4d3d15; }
 .restriction strong { color: var(--amber); font-weight: 600; }
+.restriction .note-list strong { color: #4d3d15; }
 .restriction .mail-link, .session-note .mail-link { color: var(--gold-aged); word-break: break-all; }
 
 .session-note { margin-top: 0.55rem; }
 .session-note p { margin: 0; font-size: 0.94rem; line-height: 1.5; color: var(--ink-soft); }
+.session-note p + p, .session-note ul + p { margin-top: 0.3rem; }
+.session-note strong, .restriction-body strong { font-weight: 600; color: var(--ink); }
+.session-note strong { color: var(--navy-900); }
+/* lista compacta com losango dourado — preços, trajes, itens da pauta */
+.note-list {
+  list-style: none; margin: 0.3rem 0 0; padding: 0;
+  font-size: 0.94rem; line-height: 1.45; color: var(--ink-soft);
+}
+.note-list li {
+  position: relative; padding-left: 1.05rem; margin: 0.18rem 0;
+}
+.note-list li::before {
+  content: ''; position: absolute; left: 0.15rem; top: 0.62em;
+  width: 5px; height: 5px; background: var(--gold-aged-2);
+  transform: rotate(45deg); opacity: 0.85;
+}
+.restriction-body { min-width: 0; }
+.restriction-body > strong { display: inline; }
+.restriction-body p { display: inline; margin: 0; font-size: 0.94rem; line-height: 1.5; color: #4d3d15; }
+.restriction-body p + p { display: block; margin-top: 0.25rem; }
+.restriction-body .note-list { color: #4d3d15; }
+.restriction-body .note-list li::before { background: var(--amber); }
 
 /* estado vazio do "meu roteiro" */
 .empty-state {

@@ -122,7 +122,9 @@ function findSheet_(ss) {
 
 /* ---------- helpers ---------- */
 function get(row, col, name) { return (name in col) ? row[col[name]] : ''; }
-function str(v) { return (v === null || v === undefined) ? '' : String(v).trim(); }
+function str(v) {
+  // remove **negrito** e marca itens "- " como "• " (formatação usada no site)
+  if (v != null) v = String(v).replace(/\*\*/g, '').replace(/^- /mg, '• '); return (v === null || v === undefined) ? '' : String(v).trim(); }
 function pad(n) { n = Number(n); return (n < 10 ? '0' : '') + n; }
 
 function normDate(v) {

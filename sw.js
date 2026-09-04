@@ -20,7 +20,7 @@ try {
   /* sem rede na instalação: apenas offline, sem push */
 }
 
-const CACHE = 'ritobr-v3';
+const CACHE = 'ritobr-v4';
 
 const APP_SHELL = [
   './',

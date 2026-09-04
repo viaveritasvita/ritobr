@@ -126,6 +126,22 @@
     );
   }
 
+  /* Notas e restrições com estrutura leve: quebras de linha viram
+     parágrafos, linhas iniciadas por "- " viram itens de lista e
+     **texto** vira negrito. Sem markup → parágrafo simples. */
+  function richText(text) {
+    const inline = (str) => linkify(str).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    const lines = String(text).split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+    let html = '', items = [];
+    const flush = () => { if (items.length) { html += `<ul class="note-list">${items.map((i) => `<li>${inline(i)}</li>`).join('')}</ul>`; items = []; } };
+    lines.forEach((l) => {
+      if (/^[-•]\s+/.test(l)) items.push(l.replace(/^[-•]\s+/, ''));
+      else { flush(); html += `<p>${inline(l)}</p>`; }
+    });
+    flush();
+    return html;
+  }
+
   function mapUrl(locKey) {
     const loc = LOCATIONS[locKey];
     if (!loc) return null;
@@ -332,8 +348,8 @@
             ? `<a class="loc-chip" href="${mapUrl(s.loc)}" target="_blank" rel="noopener">${ICONS.pin}<span>${esc(loc.name)}</span></a>`
             : `<span class="loc-chip is-tbd">${ICONS.pin}<span>${esc(t('toBeDefined'))}</span></span>`}
         </div>
-        ${s.restriction ? `<div class="restriction">${ICONS.lock}<p><strong>${esc(t('restrictedLabel'))}.</strong> ${linkify(s.restriction[lang] || s.restriction.pt)}</p></div>` : ''}
-        ${s.note ? `<div class="session-note"><p>${linkify(s.note[lang] || s.note.pt)}</p></div>` : ''}
+        ${s.restriction ? `<div class="restriction">${ICONS.lock}<div class="restriction-body"><strong>${esc(t('restrictedLabel'))}.</strong> ${richText(s.restriction[lang] || s.restriction.pt)}</div></div>` : ''}
+        ${s.note ? `<div class="session-note">${richText(s.note[lang] || s.note.pt)}</div>` : ''}
       </div>
     </li>`;
   }
