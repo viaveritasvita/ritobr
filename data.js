@@ -150,7 +150,7 @@ const SCHEDULE = [
         note: { pt: 'Liberação conforme o grau recebido:\n- Até o Grau 30 — ao fim da sua transmissão\n- Grau 33 — por volta das 19h30\n- Irmãos já reconhecidos no Grau 33 permanecem até o fim' },
       },
       {
-        id: 'd5-5b', start: '16:00', end: null, loc: 'templo', body: 'altos',
+        id: 'd5-5b', start: '17:00', end: null, loc: 'templo', body: 'altos',
         t: { pt: 'Sessão de Investidura do Sumo Grau 33' },
         note: { pt: 'Dentro da sessão da tarde.' },
       },
