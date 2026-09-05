@@ -7,7 +7,7 @@ X-WR-CALNAME:Programa Oficial — Rito Brasileiro · Sorriso 2026
 X-WR-TIMEZONE:America/Cuiaba
 BEGIN:VEVENT
 UID:d4-1@ritobr
-DTSTAMP:20260904T000300Z
+DTSTAMP:20260905T035100Z
 DTSTART:20260904T230000Z
 DTEND:20260905T000000Z
 SUMMARY:Chegada e recepção
@@ -21,7 +21,7 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d4-2@ritobr
-DTSTAMP:20260904T000300Z
+DTSTAMP:20260905T035100Z
 DTSTART:20260905T000000Z
 DTEND:20260905T020000Z
 SUMMARY:Reunião Administrativa dos Fundadores
@@ -34,7 +34,7 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d4-3@ritobr
-DTSTAMP:20260904T000300Z
+DTSTAMP:20260905T035100Z
 DTSTART:20260905T000000Z
 DTEND:20260905T020000Z
 SUMMARY:Confraternização das cunhadas e sobrinhos
@@ -47,7 +47,7 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d4-4@ritobr
-DTSTAMP:20260904T000300Z
+DTSTAMP:20260905T035100Z
 DTSTART:20260905T020000Z
 DTEND:20260905T030000Z
 SUMMARY:Jantar por adesão
@@ -59,7 +59,7 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-1@ritobr
-DTSTAMP:20260904T000300Z
+DTSTAMP:20260905T035100Z
 DTSTART:20260905T103000Z
 DTEND:20260905T113000Z
 SUMMARY:Credenciamento e chegada ao Templo
@@ -72,7 +72,7 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-2@ritobr
-DTSTAMP:20260904T000300Z
+DTSTAMP:20260905T035100Z
 DTSTART:20260905T113000Z
 DTEND:20260905T163000Z
 SUMMARY:Sessão Magna de Transmissão · Graus 4 ao 18
@@ -85,7 +85,7 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-3@ritobr
-DTSTAMP:20260904T000300Z
+DTSTAMP:20260905T035100Z
 DTSTART:20260905T163000Z
 DTEND:20260905T173000Z
 SUMMARY:Almoço · Graus 19 ao 33
@@ -98,7 +98,7 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-4@ritobr
-DTSTAMP:20260904T000300Z
+DTSTAMP:20260905T035100Z
 DTSTART:20260905T163000Z
 DTEND:20260905T173000Z
 SUMMARY:Graus 4 ao 18 · liberação e tarde livre
@@ -112,7 +112,7 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-5@ritobr
-DTSTAMP:20260904T000300Z
+DTSTAMP:20260905T035100Z
 DTSTART:20260905T173000Z
 DTEND:20260905T233000Z
 SUMMARY:Sessão Magna de Transmissão · Graus 19 ao 33
@@ -126,9 +126,9 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-5b@ritobr
-DTSTAMP:20260904T000300Z
-DTSTART:20260905T200000Z
-DTEND:20260905T210000Z
+DTSTAMP:20260905T035100Z
+DTSTART:20260905T210000Z
+DTEND:20260905T220000Z
 SUMMARY:Sessão de Investidura do Sumo Grau 33
 LOCATION:Templo da ARLS Acácia de Sorriso nº 2442\, Rua José Rocha dos Sa
  ntos Filho\, 191 – Centro\, Sorriso – MT\, 78890-000
@@ -138,7 +138,7 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-6@ritobr
-DTSTAMP:20260904T000300Z
+DTSTAMP:20260905T035100Z
 DTSTART:20260905T220000Z
 DTEND:20260905T233000Z
 SUMMARY:Chá das Cunhadas · palestra “Segredos da Saúde da Mulher”
@@ -152,7 +152,7 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-7@ritobr
-DTSTAMP:20260904T000300Z
+DTSTAMP:20260905T035100Z
 DTSTART:20260905T234500Z
 DTEND:20260906T004500Z
 SUMMARY:Recepção das cunhadas e sobrinhos
@@ -164,13 +164,13 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-8@ritobr
-DTSTAMP:20260904T000300Z
+DTSTAMP:20260905T035100Z
 DTSTART:20260906T000000Z
 DTEND:20260906T020000Z
 SUMMARY:Cerimônia Pública de Fundação dos Altos Corpos da Região Centro-N
  orte
-LOCATION:Templo da ARLS Acácia de Sorriso nº 2442\, Rua José Rocha dos Sa
- ntos Filho\, 191 – Centro\, Sorriso – MT\, 78890-000
+LOCATION:Recanto da Viola\, Estrada D\, Lote 51 – Gleba Sorriso\, Sorriso
+  – MT\, 78898-899
 DESCRIPTION:Aberta a cunhadas\, sobrinhos e convidados.\n• Posse dos Pres
  identes dos Altos Corpos\n• Reimplantação da 2ª Delegacia Litúrgica de M
  ato Grosso\, em Sinop\n• Homenagens a dignidades e autoridades\n• Traje 
@@ -181,7 +181,7 @@ URL:https://viaveritasvita.github.io/ritobr/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5-9@ritobr
-DTSTAMP:20260904T000300Z
+DTSTAMP:20260905T035100Z
 DTSTART:20260906T020000Z
 DTEND:20260906T030000Z
 SUMMARY:Jantar de encerramento por adesão

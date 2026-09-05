@@ -165,7 +165,7 @@ const SCHEDULE = [
         note: { pt: '- Espaço Kids, brinquedos infláveis e cuidadoras\n- **Traje:** social' },
       },
       {
-        id: 'd5-8', start: '20:00', end: '22:00', loc: 'templo', body: 'cerimonia',
+        id: 'd5-8', start: '20:00', end: '22:00', loc: 'viola', body: 'cerimonia',
         t: { pt: 'Cerimônia Pública de Fundação dos Altos Corpos da Região Centro-Norte' },
         note: { pt: 'Aberta a cunhadas, sobrinhos e convidados.\n- Posse dos Presidentes dos Altos Corpos\n- Reimplantação da 2ª Delegacia Litúrgica de Mato Grosso, em Sinop\n- Homenagens a dignidades e autoridades\n- **Traje dos irmãos:** maçônico e paramentos, com a comenda do último grau recebido\n- **Traje das cunhadas:** social' },
       },
